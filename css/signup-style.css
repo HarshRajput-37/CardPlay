@@ -1,0 +1,75 @@
+
+.box
+{
+	width: 480px;
+	padding: 40px;
+	background: rgba(56,55,56);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0);
+	border-radius: 10px;
+
+}
+.box .inputbox
+{
+	position: relative;
+}
+.box .inputbox input
+{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	border: none;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+.box .inputbox label
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	pointer-events: none;
+	transition: .5s;
+}
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label
+{
+	top: -20px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+}
+.box input[type="submit"]
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #03a9f4;
+	padding: 18px 50px;
+	cursor: pointer;
+	border-radius: 50px;
+	text-align: center;
+}
+
+.box a
+{
+  color: #00D1FF;
+  text-decoration: none;
+
+}
+.box .pre_acc
+{
+	text-align: center;
+}
+.box .pre_acc label
+{
+	color: #CAC7C7;
+	font-size: bold;

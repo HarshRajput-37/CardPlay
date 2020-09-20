@@ -1,0 +1,51 @@
+
+-----------------------------// PROJECT FILES SETUP //-------------------------------------
+
+
+STEP 1: INSTALL XAMPP SERVER , AND START MYSQL AND APPACHE.
+
+STEP 2: PLACE THE WHOLE CARDPLAY FOLDER IN "C:\xampp\htdocs\" i.e. htdocs folder
+
+
+--------------------------------// DATABASE SETUP //---------------------------------------
+
+
+STEP 3: OPEN BROWSER
+
+STEP 4: OPEN LOCALHOST BY TYPING "https://localhost/phpmyadmin/" IN URL BAR OF YOUR BROWSER
+
+STEP 5: IN PHP MYADMIN SELECT "IMPORT" AND SELECT BROWSE
+
+STEP 6: SELECT THE "cardplay.sql" FILE IN "C:\xampp\htdocs\CardPlay\database" FOLDER
+
+STEP 7 : NOW WITHOUT CHANGING ANY OF THE SETTINGS SELECT "GO" AT THE BOTTON RIGHT
+
+
+-------------------// ALL DONE FOR THE PART OF SETTING UP THE PROJECT //------------------
+
+
+
+##########################################################################################
+
+
+
+--------------------------------// FOR CLIENT SIDE //-------------------------------------
+
+->OPEN "index.php" AND SIGN UP TO SIGN IN TO THE WEBSITE
+
+
+
+
+
+--------------------------------// FOR ADMIN SIDE //-------------------------------------
+
+->OPEN "admin/index.php"
+->SIGN IN USING THESE CREDENTIALS:
+	username: admin
+	password: admin
+
+
+########################################################################################
+
+
+--------------------// SAMPLE IMAGES ARE STORED IN SWIPER FOLDER //----------------------
